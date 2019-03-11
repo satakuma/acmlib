@@ -2,7 +2,7 @@
 using namespace std;
 
 // Użycie: auto D = DominatorsTree(liczba_wierzcholkow, source_vertex (domyslnie 1))
-// Dodawanie krawedzi u -> v: D.addEdge(u, v)
+// Dodawanie krawedzi u -> v: D.add_edge(u, v)
 // D.build() zwraca vector dominatorow V: V[i] to idom wierzcholka i (V[root] = 0, nieosiagalne wierzcholki mają -1)
 // Zlozonosc: O((n+m) log n)
 
